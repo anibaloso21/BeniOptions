@@ -2,49 +2,71 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>BeniOptions · Enlaces</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
-      text-align: center;
-      background: #f5f5f5;
-      padding: 2rem;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem 1rem;
     }
-    h1 {
-      font-size: 2rem;
+    img.logo {
+      max-width: 180px;
+      border-radius: 12px;
       margin-bottom: 1rem;
     }
-    p {
+    h1 {
+      font-size: 1.4rem;
       margin-bottom: 2rem;
-      color: #333;
+      color: #ccc;
     }
-    a {
-      display: block;
-      margin: 1rem auto;
-      padding: 1rem;
-      width: 80%;
-      max-width: 300px;
-      background-color: #222;
-      color: white;
-      border-radius: 10px;
+    .links {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    a.button {
       text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s ease;
+      background: linear-gradient(135deg, #ff6600, #00bfff);
+      color: #fff;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      transition: transform 0.2s ease;
     }
-    a:hover {
-      background-color: #444;
+    a.button:hover {
+      transform: scale(1.04);
+      background: linear-gradient(135deg, #ff8533, #33ccff);
     }
   </style>
 </head>
 <body>
-  <h1>🌙 BeniOptions</h1>
-  <p>Optimiza tu descanso natural</p>
 
-<a href="https://www.amazon.es/dp/B0DT4VTQ93" 
-<a href="https://www.instagram.com/beni_options/" 
-<a href="https://www.tiktok.com/@beni_options" 
-<a href="https://www.youtube.com/@Beni_Options"
-<a href="mailto:anibal1999vlc@gmail.com">📬 Contacto por email</a>
+  <!-- Logo -->
+  <img src="https://anibaloso21.github.io/BeniOptions/logo.jpeg" alt="Logo BeniOptions" class="logo" />
+
+  <!-- Frase de marca -->
+  <h1>Optimiza tu descanso natural</h1>
+
+  <!-- Botones de enlaces -->
+  <div class="links">
+    <a class="button" href="https://www.amazon.es/dp/B0DT4VTQ93" target="_blank">🛒 Comprar en Amazon</a>
+    <a class="button" href="https://www.instagram.com/beni_options/" target="_blank">📸 Instagram</a>
+    <a class="button" href="https://www.tiktok.com/@beni.options" target="_blank">🎵 TikTok</a>
+    <a class="button" href="https://www.youtube.com/@Beni.Options" target="_blank">▶️ YouTube</a>
+    <a class="button" href="mailto:aanibaalamz@gmail.com">✉️ Contacto</a>
+  </div>
+
 </body>
 </html>
